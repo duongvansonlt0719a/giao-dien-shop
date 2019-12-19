@@ -7,7 +7,7 @@
 	background-color: black;
 }
 .khungden{
-	width: 1050px;
+	width: 1600px;
 	height: 45px;
 	margin: auto;
 }
@@ -15,8 +15,28 @@
 	color: white;
 }
 .khungden-1{
-	margin: auto;
-	width: 350px;
+	width: 650px;
+	float: left;
+}
+.khungden-2{
+	border-left: 1px solid white;
+	width: 300px;
+	float: left;
+}
+.khungden-3{
+	position: relative;
+	left: 10px;
+	border-left: 1px solid white;
+	width: 648px;
+	float: left;
+}
+.khungden11{
+	color: white;
+	position: relative;
+	left: 410px;
+
+}
+.khungden11 img{
 	float: left;
 }
 .khungden1 img{
@@ -32,7 +52,7 @@
 	background-color: white;
 }
 .quocgia{
-	color: #ccc;
+
 	display: inline-block;
 }
 .tieude{
@@ -40,8 +60,11 @@
 	width: 500px;
 }
 .tieude1{
-	width: 500px;
+	width: 550px;
 	float: left;
+	text-align: center;
+}
+.quocgia .tieude1 img{
 	text-align: right;
 }
 .market{
@@ -54,10 +77,10 @@
 }
 .market2{
 	float: left;
-	width: 300px;
+	width: 376px;
 	text-align: right;
 }
-#shop{color: #ccc}
+
 .home{
 	width: 1050px;
 	padding: 0px;
@@ -69,16 +92,196 @@
 	float: left;
 }
 .home a{
+	color: black;
 	text-decoration: none;
+}
+.home ul> li:hover{
+	background-color: blue;
+	color: white;
+
 }
 .clr{clear: both;}
 .anh1 img{
-	width: 650px;
+	width: 700px;
 	float: left;
 }
 .anh2 img{
-	width: 211px;
+	width: 227px;
+
+}
+.anh2{
+	position: relative;
+	left: 58px;
 }
 .khunganhto{
 	padding: 10px;
+}
+.market2 input{
+	width: 180px;
+	height: 26px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+}
+.logo{
+	background-color: orange;
+	float: left;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px; 
+}
+.logo i{margin: auto;
+	position: relative;
+	top: 5px;
+}
+.texas img{
+	float: left;
+}
+.texas img:hover{
+	border:1px solid black;
+}
+.shopmen img{
+	width: 350px;
+	float: left;
+}
+.ul{
+	height: 27px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.ul h3:hover{
+	width: 150px;
+	border-bottom: 1px solid blue;
+}
+.ao img{
+	width: 262px;
+	float: left;
+}
+.ao img:hover{
+	border: 1px solid black;
+	box-shadow: 0px 10px 10px 5px black;
+}
+.to img{width: 100%;}
+.home1{
+	width: 1050px;
+	padding: 0px;
+}
+.home1 ul li{
+	display: block;
+	float: left;
+	padding: 10px;
+}
+.home1 a{
+	color: #cccccc;
+	text-decoration: none;
+}
+.home1 >ul >li >a:hover{
+	padding: 10px;
+	background-color: white;
+	width: 120px;
+	color: black;
+	border-bottom: 1px solid blue;
+}
+.quan img{width: 206px;}
+.quan img:hover{
+	border: 1px solid black;
+	box-shadow: 0px 10px 10px 5px black;
+}
+.tongthe{
+	-webkit-box-shadow: 1px 1px 010px 1px #0F0F0F;
+box-shadow: 1px 1px 010px 1px #0F0F0F;
+}
+.this{
+	text-align: right;
+	width: 800px;
+	justify-content: center;
+}
+.this h4{width: 628px;}
+.this h5{width: 715px;}
+#aa{width: 700px;}
+.this h3{width: 645px;}
+.this{border-right: 1px solid black;}
+.week{float: left;}
+.week1{
+	float: left;
+	width: 335px;
+}
+.week2{
+	float: left;
+	 width: 100%;
+	 height: 200px;
+}
+.week1 h3{text-align: center;}
+.keep{
+	float: left;
+	width: 200px;
+	text-align: right;
+}
+.keep input{
+	width: 180px;
+	height: 26px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+}
+.logo1{
+	background-color: orange;
+	float: left;
+	width: 115px;
+	height: 30px;
+	text-align: center;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px; 
+}
+.week1{
+	position: relative;
+	left: 80px;
+	top: 38px;
+}
+.week{
+	position: relative;
+	top: 38px;
+}
+.last{
+	padding: 10px;
+	width: 1050px;
+	margin: auto;
+	position: relative;
+	left: -6px;
+}
+.icon h3{
+	float: left;
+}
+.icon{
+	width: 1050px;
+	position: relative;
+	left: 310px;
+}
+.last1{
+	width: 1050px;
+	margin: auto;
+}
+.cuoicung{
+	position: relative;
+	left: 50px;
+	float: left;
+	width: 262px;
+}
+.cuoicung img{
+	float: left;
+}
+.cuoicung1{padding: 5px;}
+.cuoicung p{padding: 5px;}
+.khunglast{
+	width: 1600px;
+	background-color: #eee;
+}
+.khunglast1{
+	width: 750px;
+	float: left;
+}
+.khunglast2{
+	width: 750px;
+	float: left;
+	text-align: right;
 }
